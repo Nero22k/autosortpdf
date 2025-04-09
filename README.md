@@ -119,7 +119,3 @@ The script produces two main outputs:
 ## 🤝 Contributing
 
 Contributions are welcome! If you have suggestions for improvements, find a bug, or want to add new features, please feel free to open an issue or submit a pull request.
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE). (Or choose another license if you prefer - make sure to add a `LICENSE` file to your repo).
