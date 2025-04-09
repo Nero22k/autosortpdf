@@ -21,8 +21,8 @@ It's particularly useful for managing large collections of technical documents, 
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/your-username/your-repository-name.git
-    cd your-repository-name
+    git clone https://github.com/Nero22k/autosortpdf.git
+    cd autosortpdf
     ```
 
 2.  **Create a Virtual Environment (Recommended):**
@@ -57,7 +57,7 @@ It's particularly useful for managing large collections of technical documents, 
 ## 🚀 Usage
 
 1.  **Configure the Script:**
-    *   Open the `pdf_organizer.py` (or your script's name) file in a text editor.
+    *   Open the `autosortpdf.py` (or your script's name) file in a text editor.
     *   **Crucially, set the `PDF_SOURCE_DIR` variable** to the absolute or relative path of the directory containing your PDF files.
         ```python
         # --- Configuration ---
@@ -77,7 +77,7 @@ It's particularly useful for managing large collections of technical documents, 
 3.  **Run the Script:**
     Navigate to the script's directory in your terminal (and ensure your virtual environment is activated if you created one) and run:
     ```bash
-    python pdf_organizer.py
+    python autosortpdf.py
     ```
 
 4.  **Review Output:**
@@ -88,7 +88,7 @@ It's particularly useful for managing large collections of technical documents, 
 
 ## 🔧 Configuration Variables
 
-You can adjust these variables at the top of the `pdf_organizer.py` script:
+You can adjust these variables at the top of the `autosortpdf.py` script:
 
 *   `PDF_SOURCE_DIR`: (String) Path to the directory containing your PDFs. **(Required to change)**
 *   `OUTPUT_CSV`: (String) Name of the CSV file to save keyword results. Default: `"pdf_keywords.csv"`
