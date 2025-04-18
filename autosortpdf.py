@@ -20,7 +20,7 @@ PAGES_TO_SCAN = 10 # Number of pages to scan for keywords
 TOP_N_KEYWORDS = 5 # Number of keywords to extract per PDF
 
 # ChatGPT API Configuration
-OPENAI_API_KEY = "sk-**************************"  # Replace with your actual API key
+OPENAI_API_KEY = "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"  # Replace with your actual API key
 # Use GPT-3.5-Turbo as the most cost-effective model for this task
 OPENAI_MODEL = "gpt-3.5-turbo"  # Most cost-effective for text classification tasks
 # Set to True to use ChatGPT for categorization, False to use only keyword matching
